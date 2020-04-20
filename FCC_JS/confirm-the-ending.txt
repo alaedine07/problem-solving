@@ -1,0 +1,9 @@
+function confirmEnding(str, target) {
+  var str2 = '';
+
+  str2 = str.substring(str.length - target.length);
+
+  return str2 === target;
+
+}
+confirmEnding("Bastian", "n");

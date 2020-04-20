@@ -1,0 +1,16 @@
+function mutation(arr) {
+  var ch1 = arr[0].toLowerCase();
+  var ch2 = arr[1].toLowerCase();
+
+  for (var i = 0; i < ch2.length; i++) {
+    var match = ch1.indexOf(ch2[i]);
+
+    if (match == -1) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+mutation(["hello", "hey"]);
