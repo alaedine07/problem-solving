@@ -1,0 +1,1 @@
+select distinct CITY  from station where MOD(id,2) = 0 ; 
