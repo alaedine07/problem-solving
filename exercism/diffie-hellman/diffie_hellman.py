@@ -9,3 +9,4 @@ def public_key(p, g, private):
 
 def secret(p, public, private):
 	return public ** private % p
+

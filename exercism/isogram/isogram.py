@@ -8,4 +8,4 @@ def is_isogram(string):
         if char in alphabet: 
             if sentence.count(char) != 1:
                 result = False
-    return  result
+    return  result          
